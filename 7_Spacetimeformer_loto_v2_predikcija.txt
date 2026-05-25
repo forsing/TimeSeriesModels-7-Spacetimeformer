@@ -1,0 +1,7 @@
+
+--- 2026-05-25 17:49:39.990146 (seed=39, N=4620, epochs=50) ---
+Spacetimeformer_best     -> [8, 10, 11, 23, 32, 33, 34]  (suma=151, neparnih=3/7, niskih(<=19)=3/7, raspon=26)
+Spacetimeformer_final    -> [3, 7, 16, 17, 30, 31, 37]  (suma=141, neparnih=5/7, niskih(<=19)=4/7, raspon=34)
+Spacetimeformer_ensemble -> [7, 16, 17, 23, 30, 31, 37]  (suma=161, neparnih=5/7, niskih(<=19)=3/7, raspon=30)
+back-test: BEST hits/7=1.290, AUC=0.525, LRAP=0.249; FINAL hits/7=1.210, AUC=0.524, LRAP=0.247; ENSEMBLE hits/7=1.240, AUC=0.525, LRAP=0.247; baseline=1.256
+elapsed=2033.8s
